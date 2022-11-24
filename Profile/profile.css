@@ -17,14 +17,10 @@
     box-shadow: 4px 2px 3px #010911;
 }
 
-.head {
-    background-color: #009EFA;
-    padding: 15px;
-    border: 1px solid black;
-    border-radius: 5px;
+.head p {
+    border-bottom: 2px solid black;
     margin-bottom: 30px;
     text-align: center;
-    box-shadow: 4px 2px 3px #010911;
 }
 
 .content {
