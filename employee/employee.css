@@ -78,6 +78,7 @@ img[src="image/avatar.png"] {
     grid-column: 1/2;
     background-color: #DAEBF2;
     border-right: 4px solid #717375;
+    background-color: #009efa;
 }
 
 .home-left-column>a>div{
