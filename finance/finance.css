@@ -87,6 +87,8 @@
 
 .table-head td {
     border-bottom: 2px solid #000000;
+    color: white;
+    font-size: x-large;
 }
 
 .finance-table * {
@@ -95,6 +97,7 @@
 
 .table-body th {
     background-color: #0081cf;
+    color: white;
 }
 
 .table-body span {
