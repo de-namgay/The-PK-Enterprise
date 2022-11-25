@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Service</title>
     <!-- CSS file link -->
-    <link rel="stylesheet" href="../home/base.css"/>
-    <link rel="stylesheet" href="leave application.css">
-    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" href="../Home/home.css"/>
+    <link rel="stylesheet" href="service.css">
     <!-- Icon link-->
     <link
       rel="stylesheet"
@@ -29,7 +28,7 @@
         <div class="home-logo">
           <a href="../home/home.html"><img src="image/logo23.jpeg" alt="logo" /></a>
         </div>
-        <!-- navigation Icons and user avatar -->
+        <!-- navigation Icons and u ser avatar -->
         <div class="home-avatar-Icon">
           <!-- navigation Icon -->
           <div class="icons">
@@ -47,7 +46,7 @@
             </a>
           </div>
           <!-- Avatar -->
-          <a href="../account/account.html"><img src="image/avatar.png" alt="avatar" /></a>
+          <a href="#"><img src="image/avatar.png" alt="avatar" /></a>
         </div>
       </div>
       <!-- ******************************************** Content *********************************-->
@@ -175,51 +174,84 @@
         </div>
         <!-- -------------------------------- -->
         <div class="home-right-column">
-          <!-- leave application part -->
-          <div class="leave_application_form">
-              <h2 style="text-align: center; padding: 1%; font-size: xx-large; 
-              border-bottom: 2px solid black;">Leave Application</h2>
-              <form>
-                <div class="name">
-                  <label for="employee_name" class="name">Name:</label>
-                  <input type="text" style="box-shadow: 4px 2px #010911; background-color: #DAEBF2; padding: 10px 10px">
-                </div>
-                <div class="Eid">
-                  <label for="employee_id" class="eid">EID:</label>
-                  <input type="text" style="box-shadow: 4px 2px 3px #010911; background-color: #DAEBF2; margin-left: 24px;">
-                </div>
-                <div class="date">
-                  <label for="leavefrom" class="from_date">Leave From:</label>
-                  <input type="text" style="box-shadow: 4px 2px 3px #010911; background-color: #DAEBF2;">
-                  <label for="leavetill" class="to_date">To:</label>
-                  <input type="text" style="box-shadow: 4px 2px 3px #010911; background-color: #DAEBF2;">
-                </div>
-                <div class="reason">
-                  <label for="reason_for_leave" class="Reason">Reason:</label><br>
-                  <textarea name="leave-description" id="describe_reason" cols="170" rows="9" 
-                    style="box-shadow: 4px 2px 3px #010911; background-color: #DAEBF2; padding: 5px; margin-left: 2%;" placeholder="Type here...."></textarea>
-                  <br>
-                  <label for="myfile">Attach document if any:</label>
-                  <input type="file" id="myfile" name="myfile">  
-                </div>
-                <div class="submission">
-                  <button>Submit</button>
-                </div>
-              </form>
-          </div>
-          <!-- feedback part -->
-            <div class="feedback-template">
-              <h2>Feedback</h2>
-              <div class="feedback-text">
-                <textarea name="feedback-description" id="feedback-description" placeholder="Type here...." 
-                style="background-color: #DAEBF2; padding: 5px;"></textarea>              
-                <button>Submit</button>
-                <h3 style="text-align: center; color:#4FFBDF">*Your Feedback will be confidential</h3>
+
+          <!-- leave Application -->
+          <form action="" class="leave">
+            <h1>Leave Application</h1>
+            <div class="name">
+              <input type="text" id="name" placeholder="Name">
+              <small></small>
+            </div>
+            <div class="eid">
+              <input type="text" id="eid" placeholder="EID">
+              <small></small>
+            </div>
+            <div class="leaveDuration">
+              <div class="from">
+                <label for="">Leave From</label>
+                <input type="date" placeholder="Leave From" id="from">
+                <small></small>
+              </div>
+              <div class="to">
+                <label for="">To</label>
+                <input type="date" placeholder="To" id="to">
+                <small></small>
               </div>
             </div>
-      </div>
-    </div>
+            <div class="reason">
+              <textarea name="" id="reason" cols="30" rows="10" placeholder="Reason"></textarea>
+              <small></small>
+            </div>
+            <div class="file">
+              <label for="file">Attach document if any</label>
+              <input type="file">
+            </div>
+            <input type="submit">
+          </form>
+
+
+          <!-- Table -->
+          <table class="leave-table">
+            <thead class="table-head">
+              <tr>
+                <td colspan="7">Employees</td>
+              </tr>
+            </thead>
+            <tbody class="table-body">
+              <tr>
+                <th class="remove-cell">EID</th>
+                <th>Name</th>
+                <th class="remove-cell2">Status</th>
+              </tr>
+
+              <tr>
+                <td class="remove-cell">#11111</td>
+                <td>Kuenzang</td>
+                <td class="remove-cell2">Tour</td>
+              </tr>
+
+              <tr>
+                <td class="remove-cell">#22222</td>
+                <td>Sonam</td>
+                <td class="remove-cell2">
+                  work
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- Feedback  -->
+          <form action="#" class="feedback">
+            <h1>Feedback</h1>
+            <div class="feedback-content">
+              <textarea name="feedback" cols="30" rows="10" placeholder="Type here..." id="reason2"></textarea>
+              <small></small>
+            </div>
+            <input type="submit">
+          </form>
+        </div>
+     </div>
     <!-- js file link -->
     <script src="../Home/home.js"></script>
+    <script src="service.js"></script>
   </body>
 </html>
