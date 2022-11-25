@@ -84,6 +84,8 @@ form>input{
 
 .table-head td {
     border-bottom: 2px solid #009efa;
+    color: white;
+    font-size: x-large;
 }
 
 .leave-table * {
@@ -92,6 +94,7 @@ form>input{
 
 .table-body th {
     background-color: #009efa;
+    color: white;
 }
 
 .table-body span {
