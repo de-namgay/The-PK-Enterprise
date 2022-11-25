@@ -211,6 +211,9 @@ img[src="image/chatAvatar.webp"] {
 
 .table-head td {
     border-bottom: 2px solid #000000;
+    background-color: #0081cf;
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 .employee-table * {
@@ -218,7 +221,7 @@ img[src="image/chatAvatar.webp"] {
 }
 
 .table-body th {
-    background-color: #0081cf;
+    background-color: #009efa;
 }
 
 .table-body span {
