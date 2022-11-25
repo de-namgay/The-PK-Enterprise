@@ -75,6 +75,7 @@ form>input{
     border: 2px solid #888888;
     text-align: center;
     border-collapse: collapse;
+    background-color: #009efa;
 }
 
 .leave-table * {
@@ -82,7 +83,7 @@ form>input{
 }
 
 .table-head td {
-    border-bottom: 2px solid #888888;
+    border-bottom: 2px solid #009efa;
 }
 
 .leave-table * {
@@ -90,7 +91,7 @@ form>input{
 }
 
 .table-body th {
-    background-color: rgb(237, 224, 224);
+    background-color: #009efa;
 }
 
 .table-body span {
