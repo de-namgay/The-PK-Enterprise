@@ -208,6 +208,7 @@ h1{
 
 .table-head td {
     border-bottom: 2px solid black;
+    font-size: x-large;
 }
 
 .employee-table * {
@@ -216,6 +217,7 @@ h1{
 
 .table-body th {
     background-color: #0081cf;
+    color: white;
 }
 
 .table-body span {
