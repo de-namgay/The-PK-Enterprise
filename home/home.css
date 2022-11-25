@@ -173,6 +173,7 @@ img[src="image/chatAvatar.webp"] {
     border-radius: 5px;
     box-shadow: 4px 2px 3px #010911;
     background-color: #009efa;
+    color: white;
 }
 
 .month-content>* {
@@ -222,6 +223,7 @@ img[src="image/chatAvatar.webp"] {
 
 .table-body th {
     background-color: #009efa;
+    color: white;
 }
 
 .table-body span {
